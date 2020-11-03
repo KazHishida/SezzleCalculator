@@ -21,7 +21,7 @@ Once the application is running, go to http://localhost:8080/ to view. It is als
 
 ## Some Notes:
 
-I opted to include a "Clear" button at the bottom of the recent calculations list. This clears all of the recent calculations across every user. This is not a feature I would normally include but I included it to allow the engineers to test my application more thoroughly if they so please. This button is not an essential part of my program, as the list is managed automatically by a queue-like data structure.
+I opted to include a "Clear" button at the bottom of the recent calculations list. This clears all of the recent calculations across every user. This is not a feature I would normally include but I included it to allow the engineers to test my application more thoroughly if they so please. This button is not an essential part of my program, as the list is managed automatically by a queue-like data structure and will only show the 10 most recent calculations.
 
 The calculator's functionality was modeled, in large part, by the android calculator's functionality.
 
