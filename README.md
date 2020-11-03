@@ -1,5 +1,5 @@
 # SezzleCalculator
-This webapp's was built using Gin for the back-end and React for the front-end. Although I had never used either framework or library, I did a little research and found that they were a part of Sezzle's tech stack. I had been meaning to get my toes wet in both Go and React, so this was a perfect opportunity for me to do so. I genuinely enjoyed working on this exercise! It is being hosted at https://blooming-forest-96051.herokuapp.com/.
+This webapp's was built using Gin for the back-end and React for the front-end. Although I had never used either framework or library, I did a little research and found that they were a part of Sezzle's tech stack. I had been meaning to get my toes wet in both Go and React, so this was a perfect opportunity for me to do so. For the collaborative feature of sharing calculations, I used websockets to allow the front-end to communicate in real-time with the back-end. The application is being hosted at https://blooming-forest-96051.herokuapp.com/.
 
 ## How to use
 Make sure Go is properly installed, along with the following dependencies:
