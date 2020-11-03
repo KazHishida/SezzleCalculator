@@ -8,10 +8,13 @@ go get -u github.com/gin-gonic/gin
 go get github.com/gin-contrib/static
 go get gopkg.in/olahol/melody.v1
 ```
-Then, run the following commands:
+Then, simply run application.go:
 ```bash
 git clone https://github.com/KazHishida/SezzleCalculator.git
 cd SezzleCalculator
 cd gin-gonic-backend
 go run application.go
 ```
+There is already a built executable file included in the repository as well, so you can just run gin-gonic-backend.exe from the gin-gonic-backend folder instead.
+
+Once the application is running, go to loal
