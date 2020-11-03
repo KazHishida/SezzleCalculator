@@ -1,0 +1,63 @@
+#App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: whitesmoke;
+}
+#Calculator {
+  flex:0;
+  margin: 3% 0 1%;
+}
+#displayBar {
+  background: transparent;
+  color: dimgrey;
+  text-align: right;
+  font-size: 5rem;
+  border: none;
+  outline: none;
+  width: 100%;
+  resize:none;
+}
+#displayBar::-webkit-scrollbar {
+  width: 5px;
+}
+#displayBar::-webkit-scrollbar-thumb {
+  background-color: dimgray;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+#RecentCalcs {
+  flex:1;
+  align-content: center;
+}
+#RecentCalcsHeader {
+  margin: 4% 0 2%;
+}
+#RecentCalcsList {
+  height: 15vh;
+  overflow-y: scroll;
+  font-size: 1.5rem;
+  list-style-type:none;
+  margin:0px auto;
+  padding:0px;
+}
+#RecentCalcsList::-webkit-scrollbar {
+  width: 5px;
+}
+#RecentCalcsList::-webkit-scrollbar-thumb {
+  background-color: dimgray;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+#clearRecent {
+  margin: 2.5vh 0 2.5vh;
+  font-size: 1.5rem;
+  border:none;
+  outline:none;
+  background-color: #3c4b6b;
+  color: whitesmoke;
+  text-align: center;
+}
